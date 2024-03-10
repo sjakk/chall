@@ -8,7 +8,7 @@ public class Finish : MonoBehaviour
 {
 
 
-
+    public int index = 1;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -21,7 +21,7 @@ public class Finish : MonoBehaviour
 
     private void CompleteLevel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + index);
     }
 
 }
