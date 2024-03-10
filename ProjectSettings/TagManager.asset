@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Life
+  - Ground
   layers:
   - Default
   - TransparentFX
@@ -12,7 +14,7 @@ TagManager:
   - Water
   - UI
   - Ground
-  - 
+  - Enemy
   - 
   - 
   - 
@@ -38,6 +40,21 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Clouds
+    uniqueID: 4166881229
+    locked: 0
+  - name: Clouds deep
+    uniqueID: 497668487
+    locked: 0
+  - name: Background
+    uniqueID: 3896786101
+    locked: 0
+  - name: Terrain
+    uniqueID: 4152195177
+    locked: 0
+  - name: Tangible
+    uniqueID: 1850968707
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
